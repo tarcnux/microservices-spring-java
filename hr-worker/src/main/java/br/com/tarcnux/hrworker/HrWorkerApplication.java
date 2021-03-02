@@ -1,4 +1,4 @@
-package br.com.tarcnux;
+package br.com.tarcnux.hrworker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

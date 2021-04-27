@@ -40,6 +40,13 @@ public class WorkerResource {
 		
 		Worker obj = repository.findById(id).get();
 		
+//		try {
+//			Thread.sleep(3000L);
+//		} catch (InterruptedException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		
 		return ResponseEntity.ok(obj);
 	}
 	
